@@ -32,7 +32,7 @@ STOCKS = np.array([ "GOOG", "GME", "FB","AAPL",'TSLA'])  # TODO : include all st
 SYMB = window_selection_c.selectbox("select stock", STOCKS)
 
 
-chart_width= st.expander(label="chart width").slider("", 500, 2800, 1000, key='CHART_WIDTH')
+chart_width= st.expander(label="chart width").slider("", 500, 1500, 1000, key='CHART_WIDTH')
 
 
 
