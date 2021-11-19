@@ -111,7 +111,7 @@ train_test_forecast_c.button(
 )
 
 st.sidebar.markdown("""
-written by [Hamza RABI](https://www.linkedin.com/in/hamza-rabi/)
+made by [Anshika Singh](https://www.linkedin.com/in/anshika-singh-589922164/)
 """)
 Stock.train_test_forecast_report(SYMB)
 
