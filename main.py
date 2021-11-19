@@ -12,6 +12,7 @@ st.title('Stock forecast dashboard')
       
 # ------ layout setting---------------------------
 window_selection_c = st.sidebar.container() # create an empty container in the sidebar
+window_selection_c=st.markdown('<h1 style="float: left;">Suzieq</h1><img style="float: right;" src="logo.jpg" />', unsafe_allow_html=True)
 window_selection_c.markdown("## Insights") # add a title to the sidebar container
 sub_columns = window_selection_c.columns(2) #Split the container into two columns for start and end date
 
@@ -34,7 +35,6 @@ SYMB = window_selection_c.selectbox("select stock", STOCKS)
 
 
 
-chart_width= st.expander(label="chart width").slider("", 500, 2800, 1000, key='CHART_WIDTH')
 
 
 # # # ------------------------Plot stock linecharts--------------------
